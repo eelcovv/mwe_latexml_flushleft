@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+    \begin{figure}
+        \caption{Nice picture with a footnote in flushleft environment \textsuperscript{1)}}
+        \label{fig:pic_with_flushleft}
+        \framebox{Footnote with flushleft}
+        \begin{flushleft}
+            \footnotesize{\textsuperscript{1)}This is a footnote}
+        \end{flushleft}
+    \end{figure}
+
+    \begin{figure}
+        \caption{Nice picture with a footnote without flushleft environment \textsuperscript{1)}}
+        \label{fig:pic_without_flushleft}
+        \framebox{Footnote without flushleft}
+        \newline\\
+        \footnotesize{\textsuperscript{1)}This is a footnote}
+    \end{figure}
+
+    Fig.~\ref{fig:pic_with_flushleft} shows a text box and footnote with flushleft and
+    Fig.~\ref{fig:pic_without_flushleft}.
+
+\end{document}
