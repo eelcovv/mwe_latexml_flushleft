@@ -1,0 +1,15 @@
+/out/
+/ltx-article.css
+/LaTeXML.css
+/main.html
+/main.latexml.log
+/main.latexmlpost.log
+/main.xml
+/.idea/.gitignore
+/main.tex
+/make_html.sh
+/.idea/modules.xml
+/.idea/mwe_latexml_flushleft.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
